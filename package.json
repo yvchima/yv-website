@@ -24,6 +24,5 @@
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^4.2.0",
     "postcss": "^8.3.5"
-  },
-  "packageManager": "yarn@3.2.3"
+  }
 }

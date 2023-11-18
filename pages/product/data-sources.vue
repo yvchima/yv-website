@@ -430,7 +430,6 @@ import TrustedClients from "~/components/common/TrustedClients.vue";
 import Integrate from "~/components/products/Integrate.vue";
 import ContactUs from "~/components/products/ContactUs.vue";
 import KnowMore from "~/components/common/KnowMore.vue";
-import getFlagEmoji from '@/helpers/flagEmoji'
 
 export default {
   components: {
@@ -556,14 +555,13 @@ export default {
       return sources.map((item) => {
         return {
           name: item.name,
-          flag: getFlagEmoji(item.flag),
+          flag: item.flag,
           value: item.name,
         };
       });
     },
     solutions() {
       const source = sources.find((item) => item.name === this.country)
-      console.log(source)
       return source.solutions;
     },
     selectedSolution() {

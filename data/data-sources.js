@@ -2588,24 +2588,24 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "AU Passport,",
-                        "type": ""
+                        "name": "AU Passport ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Driver's License,",
-                        "type": ""
+                        "name": "Driver's License ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Credit Report for Identification",
-                        "type": ""
+                        "name": "Credit Report for Identification ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Phone Intelligence and Verification",
-                        "type": ""
+                        "name": "Phone Intelligence and Verification ",
+                        "type": "Commercial"
                     },
                     {
-                        "name": "Adverse Media",
-                        "type": ""
+                        "name": "Adverse Media ",
+                        "type": "Commercial"
                     }
                 ]
             },
@@ -2743,16 +2743,16 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "Credit Report for Identification",
-                        "type": ""
+                        "name": "Credit Report for Identification ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Phone Intelligence and Verification",
-                        "type": ""
+                        "name": "Phone Intelligence and Verification ",
+                        "type": "Commercial"
                     },
                     {
-                        "name": "Adverse Media",
-                        "type": ""
+                        "name": "Adverse Media ",
+                        "type": "Commercial"
                     }
                 ]
             },
@@ -3576,16 +3576,16 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "Credit Report for Identification",
-                        "type": ""
+                        "name": "Credit Report for Identification ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Phone Intelligence and Verification",
-                        "type": ""
+                        "name": "Phone Intelligence and Verification ",
+                        "type": "Commercial"
                     },
                     {
-                        "name": "Adverse Media",
-                        "type": ""
+                        "name": "Adverse Media ",
+                        "type": "Commercial"
                     }
                 ]
             },
@@ -5877,15 +5877,15 @@ export const sources = [
                 "sources": [
                     {
                         "name": "RUT ",
-                        "type": " RUN numbers"
+                        "type": " RUN numbers "
                     },
                     {
-                        "name": "Phone Intelligence and Verification",
-                        "type": ""
+                        "name": "Phone Intelligence and Verification ",
+                        "type": "Commercial"
                     },
                     {
-                        "name": "Adverse Media",
-                        "type": ""
+                        "name": "Adverse Media ",
+                        "type": "Commercial"
                     }
                 ]
             },
@@ -6027,16 +6027,16 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "Resident Identity Card Number",
-                        "type": ""
+                        "name": "Resident Identity Card Number ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Phone Intelligence and Verification",
-                        "type": ""
+                        "name": "Phone Intelligence and Verification ",
+                        "type": "Commercial"
                     },
                     {
-                        "name": "Adverse Media",
-                        "type": ""
+                        "name": "Adverse Media ",
+                        "type": "Commercial"
                     }
                 ]
             },
@@ -6174,16 +6174,16 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "Colombian Personal Identification Number",
-                        "type": ""
+                        "name": "Colombian Personal Identification Number ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Phone Intelligence and Verification",
-                        "type": ""
+                        "name": "Phone Intelligence and Verification ",
+                        "type": "Commercial"
                     },
                     {
-                        "name": "Adverse Media",
-                        "type": ""
+                        "name": "Adverse Media ",
+                        "type": "Commercial"
                     }
                 ]
             },
@@ -6890,28 +6890,28 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "Driver's License",
-                        "type": ""
+                        "name": "Driver's License ",
+                        "type": "Government"
                     },
                     {
-                        "name": "ID Card",
-                        "type": ""
+                        "name": "ID Card ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Passport",
-                        "type": ""
+                        "name": "Passport ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Resident Permit",
-                        "type": ""
+                        "name": "Resident Permit ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Phone Intelligence and Verification",
-                        "type": ""
+                        "name": "Phone Intelligence and Verification ",
+                        "type": "Commercial"
                     },
                     {
-                        "name": "Adverse Media",
-                        "type": ""
+                        "name": "Adverse Media ",
+                        "type": "Commercial"
                     }
                 ]
             }
@@ -7026,16 +7026,16 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "Passport",
-                        "type": ""
+                        "name": "Passport ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Phone Intelligence and Verification",
-                        "type": ""
+                        "name": "Phone Intelligence and Verification ",
+                        "type": "Commercial"
                     },
                     {
-                        "name": "Adverse Media",
-                        "type": ""
+                        "name": "Adverse Media ",
+                        "type": "Commercial"
                     }
                 ]
             }
@@ -7150,28 +7150,28 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "Driver's License",
-                        "type": ""
+                        "name": "Driver's License ",
+                        "type": "Government"
                     },
                     {
-                        "name": "ID Card",
-                        "type": ""
+                        "name": "ID Card ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Passport",
-                        "type": ""
+                        "name": "Passport ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Resident Permit",
-                        "type": ""
+                        "name": "Resident Permit ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Phone Intelligence and Verification",
-                        "type": ""
+                        "name": "Phone Intelligence and Verification ",
+                        "type": "Commercial"
                     },
                     {
-                        "name": "Adverse Media",
-                        "type": ""
+                        "name": "Adverse Media ",
+                        "type": "Commercial"
                     }
                 ]
             },
@@ -7309,28 +7309,28 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "Driver's License",
-                        "type": ""
+                        "name": "Driver's License ",
+                        "type": "Government"
                     },
                     {
-                        "name": "ID Card",
-                        "type": ""
+                        "name": "ID Card ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Passport",
-                        "type": ""
+                        "name": "Passport ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Resident Permit",
-                        "type": ""
+                        "name": "Resident Permit ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Phone Intelligence and Verification",
-                        "type": ""
+                        "name": "Phone Intelligence and Verification ",
+                        "type": "Commercial"
                     },
                     {
-                        "name": "Adverse Media",
-                        "type": ""
+                        "name": "Adverse Media ",
+                        "type": "Commercial"
                     }
                 ]
             },
@@ -7468,24 +7468,24 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "Driver's License",
-                        "type": ""
+                        "name": "Driver's License  ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Passport",
-                        "type": ""
+                        "name": "Passport ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Resident Permit",
-                        "type": ""
+                        "name": "Resident Permit ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Phone Intelligence and Verification",
-                        "type": ""
+                        "name": "Phone Intelligence and Verification ",
+                        "type": "Commercial"
                     },
                     {
-                        "name": "Adverse Media",
-                        "type": ""
+                        "name": "Adverse Media ",
+                        "type": "Commercial"
                     }
                 ]
             },
@@ -8527,28 +8527,28 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "Passport",
-                        "type": ""
+                        "name": "Passport ",
+                        "type": "Government"
                     },
                     {
-                        "name": "ID Card",
-                        "type": ""
+                        "name": "ID Card ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Driver's License",
-                        "type": ""
+                        "name": "Driver's License ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Resident Permit",
-                        "type": ""
+                        "name": "Resident Permit ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Phone Intelligence and Verification",
-                        "type": ""
+                        "name": "Phone Intelligence and Verification ",
+                        "type": "Commercial"
                     },
                     {
-                        "name": "Adverse Media",
-                        "type": ""
+                        "name": "Adverse Media ",
+                        "type": "Commercial"
                     }
                 ]
             },
@@ -8963,16 +8963,16 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "Personal Identity Code",
-                        "type": ""
+                        "name": "Personal Identity Code  ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Phone Intelligence and Verification",
-                        "type": ""
+                        "name": "Phone Intelligence and Verification ",
+                        "type": "Commercial"
                     },
                     {
-                        "name": "Adverse Media",
-                        "type": ""
+                        "name": "Adverse Media ",
+                        "type": "Commercial"
                     }
                 ]
             },
@@ -9114,16 +9114,16 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "Credit and Telco Report for Identification",
-                        "type": ""
+                        "name": "Credit and Telco Report for Identification ",
+                        "type": "Commercial"
                     },
                     {
-                        "name": "Phone Intelligence and Verification",
-                        "type": ""
+                        "name": "Phone Intelligence and Verification ",
+                        "type": "Commercial"
                     },
                     {
-                        "name": "Adverse Media",
-                        "type": ""
+                        "name": "Adverse Media ",
+                        "type": "Commercial"
                     }
                 ]
             },
@@ -9546,16 +9546,16 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "Credit and Telco Report for Identification",
-                        "type": ""
+                        "name": "Credit and Telco Report for Identification ",
+                        "type": "Commercial"
                     },
                     {
-                        "name": "Phone Intelligence and Verification",
-                        "type": ""
+                        "name": "Phone Intelligence and Verification ",
+                        "type": "Commercial"
                     },
                     {
-                        "name": "Adverse Media",
-                        "type": ""
+                        "name": "Adverse Media ",
+                        "type": "Commercial"
                     }
                 ]
             },
@@ -9694,11 +9694,11 @@ export const sources = [
                 "sources": [
                     {
                         "name": "National ID ",
-                        "type": "Government"
+                        "type": "Government "
                     },
                     {
                         "name": "Phone Intelligence and Verification ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "Adverse Media ",
@@ -10772,20 +10772,20 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "HKID",
-                        "type": ""
+                        "name": "HKID ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Credit sources for identification",
-                        "type": ""
+                        "name": "Credit sources for identification ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Phone Intelligence and Verification",
-                        "type": ""
+                        "name": "Phone Intelligence and Verification ",
+                        "type": "Commercial"
                     },
                     {
-                        "name": "Adverse Media",
-                        "type": ""
+                        "name": "Adverse Media ",
+                        "type": "Commercial"
                     }
                 ]
             },
@@ -11149,32 +11149,32 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "ID Card",
-                        "type": ""
+                        "name": "ID Card ",
+                        "type": "Government"
                     },
                     {
-                        "name": "PAN Card",
-                        "type": ""
+                        "name": "PAN Card ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Voter ID",
-                        "type": ""
+                        "name": "Voter ID ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Passport",
-                        "type": ""
+                        "name": "Passport ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Driver's License",
-                        "type": ""
+                        "name": "Driver's License ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Phone Intelligence and Verification",
-                        "type": ""
+                        "name": "Phone Intelligence and Verification ",
+                        "type": "Commercial"
                     },
                     {
-                        "name": "Adverse Media",
-                        "type": ""
+                        "name": "Adverse Media ",
+                        "type": "Commercial"
                     }
                 ]
             },
@@ -11720,24 +11720,24 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "Driver's License",
-                        "type": ""
+                        "name": "Driver's License ",
+                        "type": "Government"
                     },
                     {
-                        "name": "ID Card",
-                        "type": ""
+                        "name": "ID Card ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Passport",
-                        "type": ""
+                        "name": "Passport ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Phone Intelligence and Verification",
-                        "type": ""
+                        "name": "Phone Intelligence and Verification ",
+                        "type": "Commercial"
                     },
                     {
-                        "name": "Adverse Media",
-                        "type": ""
+                        "name": "Adverse Media ",
+                        "type": "Commercial"
                     }
                 ]
             }
@@ -12011,16 +12011,16 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "Driver's License",
-                        "type": ""
+                        "name": "Driver's License ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Phone Intelligence and Verification",
-                        "type": ""
+                        "name": "Phone Intelligence and Verification ",
+                        "type": "Commercial"
                     },
                     {
-                        "name": "Adverse Media",
-                        "type": ""
+                        "name": "Adverse Media ",
+                        "type": "Commercial"
                     }
                 ]
             }
@@ -12298,24 +12298,24 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "Driver's License",
-                        "type": ""
+                        "name": "Driver's License ",
+                        "type": "Government"
                     },
                     {
-                        "name": "ID Card",
-                        "type": ""
+                        "name": "ID Card ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Passport",
-                        "type": ""
+                        "name": "Passport ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Phone Intelligence and Verification",
-                        "type": ""
+                        "name": "Phone Intelligence and Verification ",
+                        "type": "Commercial"
                     },
                     {
-                        "name": "Adverse Media",
-                        "type": ""
+                        "name": "Adverse Media ",
+                        "type": "Commercial"
                     }
                 ]
             }
@@ -12434,16 +12434,16 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "ID Card",
-                        "type": ""
+                        "name": "ID Card ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Phone Intelligence and Verification",
-                        "type": ""
+                        "name": "Phone Intelligence and Verification ",
+                        "type": "Commercial"
                     },
                     {
-                        "name": "Adverse Media",
-                        "type": ""
+                        "name": "Adverse Media ",
+                        "type": "Commercial"
                     }
                 ]
             },
@@ -12585,20 +12585,20 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "Passport",
-                        "type": ""
+                        "name": "Passport ",
+                        "type": "Government"
                     },
                     {
-                        "name": "ID Card",
-                        "type": ""
+                        "name": "ID Card ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Phone Intelligence and Verification",
-                        "type": ""
+                        "name": "Phone Intelligence and Verification ",
+                        "type": "Commercial"
                     },
                     {
-                        "name": "Adverse Media",
-                        "type": ""
+                        "name": "Adverse Media ",
+                        "type": "Commercial"
                     }
                 ]
             },
@@ -12847,24 +12847,24 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "Driver's License",
-                        "type": ""
+                        "name": "Driver's License ",
+                        "type": "Government"
                     },
                     {
-                        "name": "ID Card",
-                        "type": ""
+                        "name": "ID Card ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Passport",
-                        "type": ""
+                        "name": "Passport ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Phone Intelligence and Verification",
-                        "type": ""
+                        "name": "Phone Intelligence and Verification ",
+                        "type": "Commercial"
                     },
                     {
-                        "name": "Adverse Media",
-                        "type": ""
+                        "name": "Adverse Media ",
+                        "type": "Commercial"
                     }
                 ]
             }
@@ -12983,24 +12983,24 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "Driver's License",
-                        "type": ""
+                        "name": "Driver's License ",
+                        "type": "Government"
                     },
                     {
-                        "name": "ID Card",
-                        "type": ""
+                        "name": "ID Card ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Residential ID",
-                        "type": ""
+                        "name": "Residential ID ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Phone Intelligence and Verification",
-                        "type": ""
+                        "name": "Phone Intelligence and Verification ",
+                        "type": "Commercial"
                     },
                     {
-                        "name": "Adverse Media",
-                        "type": ""
+                        "name": "Adverse Media ",
+                        "type": "Commercial"
                     }
                 ]
             }
@@ -13127,16 +13127,16 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "ID Card",
-                        "type": ""
+                        "name": "ID Card ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Phone Intelligence and Verification",
-                        "type": ""
+                        "name": "Phone Intelligence and Verification ",
+                        "type": "Commercial"
                     },
                     {
-                        "name": "Adverse Media",
-                        "type": ""
+                        "name": "Adverse Media ",
+                        "type": "Commercial"
                     }
                 ]
             }
@@ -13366,24 +13366,24 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "ID Card",
-                        "type": ""
+                        "name": "ID Card ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Driver's License",
-                        "type": ""
+                        "name": "Driver's License ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Resident Permit",
-                        "type": ""
+                        "name": "Resident Permit ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Phone Intelligence and Verification",
-                        "type": ""
+                        "name": "Phone Intelligence and Verification ",
+                        "type": "Commercial"
                     },
                     {
-                        "name": "Adverse Media",
-                        "type": ""
+                        "name": "Adverse Media ",
+                        "type": "Commercial"
                     }
                 ]
             },
@@ -13525,16 +13525,16 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "ID Card",
-                        "type": ""
+                        "name": "ID Card ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Phone Intelligence and Verification",
-                        "type": ""
+                        "name": "Phone Intelligence and Verification ",
+                        "type": "Commercial"
                     },
                     {
-                        "name": "Adverse Media",
-                        "type": ""
+                        "name": "Adverse Media ",
+                        "type": "Commercial"
                     }
                 ]
             }
@@ -13883,16 +13883,16 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "Passport",
-                        "type": ""
+                        "name": "Passport ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Phone Intelligence and Verification",
-                        "type": ""
+                        "name": "Phone Intelligence and Verification ",
+                        "type": "Commercial"
                     },
                     {
-                        "name": "Adverse Media",
-                        "type": ""
+                        "name": "Adverse Media ",
+                        "type": "Commercial"
                     }
                 ]
             }
@@ -14000,6 +14000,12 @@ export const sources = [
                         "type": "Commercial"
                     }
                 ]
+            },
+            {
+                "name": "KYC - Data Matching (eIDv)",
+                "link": "/product/kyc/id-data-matching",
+                "docs": "https://doc.youverify.co/",
+                "sources": []
             }
         ]
     },
@@ -14116,24 +14122,24 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "Driver's License",
-                        "type": ""
+                        "name": "Driver's License ",
+                        "type": "Government"
                     },
                     {
-                        "name": "ID Card",
-                        "type": ""
+                        "name": "ID Card ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Passport",
-                        "type": ""
+                        "name": "Passport ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Phone Intelligence and Verification",
-                        "type": ""
+                        "name": "Phone Intelligence and Verification ",
+                        "type": "Commercial"
                     },
                     {
-                        "name": "Adverse Media",
-                        "type": ""
+                        "name": "Adverse Media ",
+                        "type": "Commercial"
                     }
                 ]
             }
@@ -14808,16 +14814,16 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "ID Card",
-                        "type": ""
+                        "name": "ID Card ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Phone Intelligence and Verification",
-                        "type": ""
+                        "name": "Phone Intelligence and Verification ",
+                        "type": "Commercial"
                     },
                     {
-                        "name": "Adverse Media",
-                        "type": ""
+                        "name": "Adverse Media ",
+                        "type": "Commercial"
                     }
                 ]
             }
@@ -15047,24 +15053,24 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "Driver's License",
-                        "type": ""
+                        "name": "Driver's License ",
+                        "type": "Government"
                     },
                     {
-                        "name": "ID Card",
-                        "type": ""
+                        "name": "ID Card ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Residence Permit",
-                        "type": ""
+                        "name": "Residence Permit ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Phone Intelligence and Verification",
-                        "type": ""
+                        "name": "Phone Intelligence and Verification ",
+                        "type": "Commercial"
                     },
                     {
-                        "name": "Adverse Media",
-                        "type": ""
+                        "name": "Adverse Media ",
+                        "type": "Commercial"
                     }
                 ]
             }
@@ -15409,16 +15415,16 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "ID Card",
-                        "type": ""
+                        "name": "ID Card ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Phone Intelligence and Verification",
-                        "type": ""
+                        "name": "Phone Intelligence and Verification ",
+                        "type": "Commercial"
                     },
                     {
-                        "name": "Adverse Media",
-                        "type": ""
+                        "name": "Adverse Media ",
+                        "type": "Commercial"
                     }
                 ]
             }
@@ -15811,20 +15817,20 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "ID Card",
-                        "type": ""
+                        "name": "ID Card ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Passport",
-                        "type": ""
+                        "name": "Passport ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Phone Intelligence and Verification",
-                        "type": ""
+                        "name": "Phone Intelligence and Verification ",
+                        "type": "Commercial"
                     },
                     {
-                        "name": "Adverse Media",
-                        "type": ""
+                        "name": "Adverse Media ",
+                        "type": "Commercial"
                     }
                 ]
             },
@@ -16188,24 +16194,24 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "Driver's License",
-                        "type": ""
+                        "name": "Driver's License ",
+                        "type": "Government"
                     },
                     {
-                        "name": "ID Card",
-                        "type": ""
+                        "name": "ID Card ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Passport",
-                        "type": ""
+                        "name": "Passport ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Phone Intelligence and Verification",
-                        "type": ""
+                        "name": "Phone Intelligence and Verification ",
+                        "type": "Commercial"
                     },
                     {
-                        "name": "Adverse Media",
-                        "type": ""
+                        "name": "Adverse Media ",
+                        "type": "Commercial"
                     }
                 ]
             }
@@ -16324,23 +16330,23 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "Driver's License",
-                        "type": ""
+                        "name": "Driver's License ",
+                        "type": "Government"
                     },
                     {
-                        "name": "ID Card",
-                        "type": ""
+                        "name": "ID Card ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Passport",
-                        "type": ""
+                        "name": "Passport ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Phone Intelligence and Verification",
-                        "type": ""
+                        "name": "Phone Intelligence and Verification ",
+                        "type": "Commercial"
                     },
                     {
-                        "name": "Adverse Media",
+                        "name": "Adverse Media Commercial",
                         "type": ""
                     }
                 ]
@@ -16351,20 +16357,20 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "Company search",
-                        "type": ""
+                        "name": "Company search  ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Company verification",
-                        "type": ""
+                        "name": "Company verification ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Risk intelligence",
-                        "type": ""
+                        "name": "Risk intelligence ",
+                        "type": "Commercial"
                     },
                     {
-                        "name": "Adverse media",
-                        "type": ""
+                        "name": "Adverse media ",
+                        "type": "Commercial"
                     }
                 ]
             }
@@ -16875,16 +16881,16 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "Passport",
-                        "type": ""
+                        "name": "Passport ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Phone Intelligence and Verification",
-                        "type": ""
+                        "name": "Phone Intelligence and Verification ",
+                        "type": "Commercial"
                     },
                     {
-                        "name": "Adverse Media",
-                        "type": ""
+                        "name": "Adverse Media ",
+                        "type": "Commercial"
                     }
                 ]
             }
@@ -17317,16 +17323,16 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "ID Card",
-                        "type": ""
+                        "name": "ID Card ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Phone Intelligence and Verification",
-                        "type": ""
+                        "name": "Phone Intelligence and Verification ",
+                        "type": "Commercial"
                     },
                     {
-                        "name": "Adverse Media",
-                        "type": ""
+                        "name": "Adverse Media ",
+                        "type": "Commercial"
                     }
                 ]
             }
@@ -18620,20 +18626,20 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "Driver's License",
-                        "type": ""
+                        "name": "Driver's License ",
+                        "type": "Government"
                     },
                     {
-                        "name": "ID Card",
-                        "type": ""
+                        "name": "ID Card ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Phone Intelligence and Verification",
-                        "type": ""
+                        "name": "Phone Intelligence and Verification ",
+                        "type": "Commercial"
                     },
                     {
-                        "name": "Adverse Media",
-                        "type": ""
+                        "name": "Adverse Media ",
+                        "type": "Commercial"
                     }
                 ]
             }
@@ -18748,28 +18754,28 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "Driver's License",
-                        "type": ""
+                        "name": "Driver's License ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Minors ID",
-                        "type": ""
+                        "name": "Minors ID ",
+                        "type": "Government"
                     },
                     {
-                        "name": "ID Card",
-                        "type": ""
+                        "name": "ID Card ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Passport",
-                        "type": ""
+                        "name": "Passport ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Phone Intelligence and Verification",
-                        "type": ""
+                        "name": "Phone Intelligence and Verification ",
+                        "type": "Commercial"
                     },
                     {
-                        "name": "Adverse Media",
-                        "type": ""
+                        "name": "Adverse Media ",
+                        "type": "Commercial"
                     }
                 ]
             }
@@ -19377,16 +19383,39 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "Driver's License",
-                        "type": ""
+                        "name": "Driver's License  ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Phone Intelligence and Verification",
-                        "type": ""
+                        "name": "Phone Intelligence and Verification ",
+                        "type": "Commercial"
                     },
                     {
-                        "name": "Adverse Media",
-                        "type": ""
+                        "name": "Adverse Media ",
+                        "type": "Commercial"
+                    }
+                ]
+            },
+            {
+                "name": "KYB - Business verification",
+                "link": "/product/kyb/business-verification",
+                "docs": "https://doc.youverify.co/",
+                "sources": [
+                    {
+                        "name": "Company search ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "Company verification ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "Risk intelligence ",
+                        "type": "Commercial"
+                    },
+                    {
+                        "name": "Adverse media ",
+                        "type": "Commercial"
                     }
                 ]
             }
@@ -19505,28 +19534,28 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "Driver's License",
-                        "type": ""
+                        "name": "Driver's License ",
+                        "type": "Government"
                     },
                     {
-                        "name": "ID Card",
-                        "type": ""
+                        "name": "ID Card ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Passport",
-                        "type": ""
+                        "name": "Passport ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Resident Permit",
-                        "type": ""
+                        "name": "Resident Permit ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Phone Intelligence and Verification",
-                        "type": ""
+                        "name": "Phone Intelligence and Verification ",
+                        "type": "Commercial"
                     },
                     {
-                        "name": "Adverse Media",
-                        "type": ""
+                        "name": "Adverse Media ",
+                        "type": "Commercial"
                     }
                 ]
             }
@@ -19641,24 +19670,47 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "Driver's License",
-                        "type": ""
+                        "name": "Driver's License ",
+                        "type": "Government"
                     },
                     {
-                        "name": "ID Card",
-                        "type": ""
+                        "name": "ID Card ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Passport",
-                        "type": ""
+                        "name": "Passport ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Phone Intelligence and Verification",
-                        "type": ""
+                        "name": "Phone Intelligence and Verification ",
+                        "type": "Commercial"
                     },
                     {
-                        "name": "Adverse Media",
-                        "type": ""
+                        "name": "Adverse Media ",
+                        "type": "Commercial"
+                    }
+                ]
+            },
+            {
+                "name": "KYB - Business verification",
+                "link": "/product/kyb/business-verification",
+                "docs": "https://doc.youverify.co/",
+                "sources": [
+                    {
+                        "name": "Company search ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "Company verification ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "Risk intelligence ",
+                        "type": "Commercial"
+                    },
+                    {
+                        "name": "Adverse media ",
+                        "type": "Commercial"
                     }
                 ]
             }
@@ -19797,20 +19849,20 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "Driver's License",
-                        "type": ""
+                        "name": "Driver's License ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Passport",
-                        "type": ""
+                        "name": "Passport ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Phone Intelligence and Verification",
-                        "type": ""
+                        "name": "Phone Intelligence and Verification ",
+                        "type": "Commercial"
                     },
                     {
-                        "name": "Adverse Media",
-                        "type": ""
+                        "name": "Adverse Media ",
+                        "type": "Commercial"
                     }
                 ]
             }
@@ -19929,16 +19981,16 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "ID Card",
-                        "type": ""
+                        "name": "ID Card ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Phone Intelligence and Verification",
-                        "type": ""
+                        "name": "Phone Intelligence and Verification ",
+                        "type": "Commercial"
                     },
                     {
-                        "name": "Adverse Media",
-                        "type": ""
+                        "name": "Adverse Media ",
+                        "type": "Commercial"
                     }
                 ]
             }
@@ -20727,28 +20779,28 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "Driver's License",
-                        "type": ""
+                        "name": "Driver's License ",
+                        "type": "Government"
                     },
                     {
-                        "name": "ID Card",
-                        "type": ""
+                        "name": "ID Card ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Passport",
-                        "type": ""
+                        "name": "Passport ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Resident ID",
-                        "type": ""
+                        "name": "Resident ID ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Phone Intelligence and Verification",
-                        "type": ""
+                        "name": "Phone Intelligence and Verification ",
+                        "type": "Commercial"
                     },
                     {
-                        "name": "Adverse Media",
-                        "type": ""
+                        "name": "Adverse Media ",
+                        "type": "Commercial"
                     }
                 ]
             }
@@ -20867,16 +20919,16 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "ID Card",
-                        "type": ""
+                        "name": "ID Card ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Phone Intelligence and Verification",
-                        "type": ""
+                        "name": "Phone Intelligence and Verification ",
+                        "type": "Commercial"
                     },
                     {
-                        "name": "Adverse Media",
-                        "type": ""
+                        "name": "Adverse Media ",
+                        "type": "Commercial"
                     }
                 ]
             }
@@ -20989,32 +21041,7 @@ export const sources = [
                 "name": "KYC - Data Matching (eIDv)",
                 "link": "/product/kyc/id-data-matching",
                 "docs": "https://doc.youverify.co/",
-                "sources": [
-                    {
-                        "name": "Driver's License",
-                        "type": ""
-                    },
-                    {
-                        "name": "ID Card",
-                        "type": ""
-                    },
-                    {
-                        "name": "Passport",
-                        "type": ""
-                    },
-                    {
-                        "name": "Resident ID",
-                        "type": ""
-                    },
-                    {
-                        "name": "Phone Intelligence and Verification",
-                        "type": ""
-                    },
-                    {
-                        "name": "Adverse Media",
-                        "type": ""
-                    }
-                ]
+                "sources": []
             }
         ]
     },
@@ -21124,6 +21151,12 @@ export const sources = [
                         "type": "Commercial"
                     }
                 ]
+            },
+            {
+                "name": "KYC - Data Matching (eIDv)",
+                "link": "/product/kyc/id-data-matching",
+                "docs": "https://doc.youverify.co/",
+                "sources": []
             }
         ]
     },
@@ -21233,6 +21266,12 @@ export const sources = [
                         "type": "Commercial"
                     }
                 ]
+            },
+            {
+                "name": "KYC - Data Matching (eIDv)",
+                "link": "/product/kyc/id-data-matching",
+                "docs": "https://doc.youverify.co/",
+                "sources": []
             }
         ]
     },
@@ -21679,28 +21718,28 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "Driver's License",
-                        "type": ""
+                        "name": "Driver's License ",
+                        "type": "Government"
                     },
                     {
-                        "name": "ID Card",
-                        "type": ""
+                        "name": "ID Card ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Passport",
-                        "type": ""
+                        "name": "Passport ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Residence Permit",
-                        "type": ""
+                        "name": "Residence Permit ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Phone Intelligence and Verification",
-                        "type": ""
+                        "name": "Phone Intelligence and Verification ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Adverse Media",
-                        "type": ""
+                        "name": "Adverse Media ",
+                        "type": "Government"
                     }
                 ]
             }

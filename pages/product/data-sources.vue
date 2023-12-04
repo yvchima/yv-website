@@ -359,7 +359,10 @@
               >
             </div>
             <div style="max-height: 500px" class="mt-3 overflow-scroll shadow">
-              <table class="w-full shadow-lg rounded-md font-normal">
+              <table
+                v-if="sources.length"
+                class="w-full shadow-lg rounded-md font-normal"
+              >
                 <thead>
                   <tr class="">
                     <th
@@ -401,12 +404,51 @@
                     </td>
                   </tr>
                 </tbody>
-                <!-- <div v-else class="w-full h-[500px] flex items-center justify-center p-4 md:p-9 text-blue-150 gap-6 md:gap-9">
-                  <p class="max-w-xs text-center text-sm font-bold text-blue-300">
-                    There is currently no data source information on our eIDV for this country, you can see our <nuxt-link to="/" class="text-blue-150 decoration-dotted">OCR solution.</nuxt-link>
-                  </p>
-                </div> -->
               </table>
+              <div
+                v-else-if="
+                  selectedSolution.name.toLowerCase().includes('kyc') &&
+                  !selectedSolution.sources.length
+                "
+                class="w-full rounded-md"
+              >
+                <div
+                  class="bg-blue-150 text-blue-300 grid grid-cols-3 h-16 items-center"
+                >
+                  <h4
+                    class="py-4 px-5 text-left col-span-2 text-blue-300 text-base font-bold"
+                  >
+                    Source Name
+                  </h4>
+                  <h4
+                    class="py-4 px-5 text-left text-blue-300 text-base font-bold"
+                  >
+                    Source Type
+                  </h4>
+                </div>
+                <div
+                  class="no-kyc flex items-center justify-center flex-col p-4 md:p-9 gap-6 md:gap-9"
+                >
+                  <div class="justify-center flex">
+                    <img
+                      src="@/assets/images/icons/no-info.svg"
+                      alt=""
+                      class="w-full h-full"
+                    />
+                  </div>
+                  <p class="max-w-lg text-center">
+                    There is currently no data source information on our eIDV
+                    for this country, you can see our
+                    <a
+                      href="https://doc.youverify.co/know-your-customer-services-kyc/id-document-verification/sdk/document-capture-supported-countries"
+                      target="_blank"
+                      rel="no-referrer"
+                      class="text-blue-100 underline text-blue"
+                      >OCR solution.</a
+                    >
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -561,7 +603,7 @@ export default {
       });
     },
     solutions() {
-      const source = sources.find((item) => item.name === this.country)
+      const source = sources.find((item) => item.name === this.country);
       return source.solutions;
     },
     selectedSolution() {
@@ -570,7 +612,7 @@ export default {
     sources() {
       const solution = this.solutions.find(
         (item) => item.name === this.selectedSolution.name
-      )
+      );
       return solution.sources;
     },
   },
@@ -905,5 +947,9 @@ export default {
 thead th {
   position: sticky;
   top: 0;
+}
+
+.no-kyc {
+  height: calc(500px - 4rem);
 }
 </style>

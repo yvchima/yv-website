@@ -28,7 +28,12 @@
         </p>
       </div>
 
-      <form @submit.prevent="submitForm" class="w-full md:w-1/2">
+        <contact-form
+        type='contact'
+          class="w-full md:w-1/2"
+          @submit-form="submitForm"
+        />
+      <!-- <form @submit.prevent="submitForm" class="w-full md:w-1/2">
         <div class="form-group space-y-5 w-full">
           <div
             class="pr-4 border border-grey focus-within:border-blue bg-white rounded"
@@ -64,7 +69,7 @@
             <input type="email" v-model="email" placeholder="Email" required />
           </div>
           <input type="text" v-model="company" placeholder="Company" required />
-          <!-- <div
+          <div
             v-if="query_type === 'Sales'"
             class="pr-4 border border-grey focus-within:border-blue bg-white rounded"
           >
@@ -74,7 +79,7 @@
                 {{ section }}
               </option>
             </select>
-          </div> -->
+          </div>
           <app-select-input
             placeholder="Select Industry"
             v-model="industry"
@@ -105,7 +110,7 @@
               </div>
             </template>
           </app-select-input>
-          <!-- <input type="tel" v-model="phone_number" placeholder="Phone Number" /> -->
+          <input type="tel" v-model="phone_number" placeholder="Phone Number" />
           <div class="flex space-x-1">
             <app-select-input
               :options="countryCodes"
@@ -136,7 +141,7 @@
             />
           </div>
 
-          <!-- <div
+          <div
             v-if="query_type === 'Partnership'"
             class="pr-4 border border-grey focus-within:border-blue bg-white rounded"
           >
@@ -148,7 +153,7 @@
                 {{ t }}
               </option>
             </select>
-          </div> -->
+          </div>
 
           <app-select-input
             v-if="query_type === 'Partnership'"
@@ -199,7 +204,7 @@
             Privacy Policy</a
           >
         </p>
-      </form>
+      </form> -->
     </div>
   </section>
 </template>
@@ -207,7 +212,9 @@
 <script>
 import { mapState, mapGetters } from "vuex";
 import { commonEmails } from "~/data/emails";
+import contactForm from "@/components/contactForm.vue";
 export default {
+  components: { contactForm },
   props: {
     title: {
       required: true,
@@ -289,81 +296,10 @@ export default {
     },
   },
   methods: {
-    async submitForm() {
+    async submitForm(data) {
       try {
-        switch (this.query_type) {
-          case "Sales":
-            await this.$store.dispatch("contact/submitForm", {
-              queryType: this.query_type,
-              firstName: this.first_name,
-              lastName: this.last_name,
-              companyName: this.company,
-              email: this.email,
-              industry: this.industry,
-              countryOfOperations: this.country,
-              countryCode: this.tel_code,
-              phoneNumber: this.mobile,
-              whereDidYouHear: this.whereDidYouHear,
-              message: this.message,
-              formOn: this.$route.fullPath,
-              type: "sales",
-            });
-            this.submitted = true;
-            break;
-
-          case "Support":
-            await this.$store.dispatch("contact/submitForm", {
-              queryType: this.query_type,
-              firstName: this.first_name,
-              lastName: this.last_name,
-              companyName: this.company,
-              // countryOfOperations: this.country,
-              email: this.email,
-              countryCode: this.tel_code,
-              phoneNumber: this.mobile,
-              whereDidYouHear: this.whereDidYouHear,
-              message: this.message,
-              formOn: this.$route.fullPath,
-              type: "support",
-            });
-            this.submitted = true;
-            break;
-
-          case "Press and Media":
-            await this.$store.dispatch("contact/submitForm", {
-              queryType: this.query_type,
-              firstName: this.first_name,
-              lastName: this.last_name,
-              companyName: this.company,
-              email: this.email,
-              countryCode: this.tel_code,
-              phoneNumber: this.mobile,
-              whereDidYouHear: this.whereDidYouHear,
-              message: this.message,
-              formOn: this.$route.fullPath,
-              type: "marketing",
-            });
-            this.submitted = true;
-            break;
-
-          case "Partnership":
-            await this.$store.dispatch("contact/submitForm", {
-              queryType: this.query_type,
-              firstName: this.first_name,
-              lastName: this.last_name,
-              companyName: this.company,
-              email: this.email,
-              partnershipType: this.partnership_type,
-              countryCode: this.tel_code,
-              phoneNumber: this.mobile,
-              whereDidYouHear: this.whereDidYouHear,
-              message: this.message,
-              formOn: this.$route.fullPath,
-              type: "product",
-            });
-            this.submitted = true;
-            break;
-        }
+        await this.$store.dispatch("zoho-crm/createLeads", {...data }); // type: 'support'
+        this.submitted = true;
         if (this.checkbox) {
           // subscribe to newsletter
           await this.$axios.$post(`${process.env.baseUrl}/newsletter-emails`, {

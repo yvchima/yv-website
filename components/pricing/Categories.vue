@@ -874,148 +874,7 @@
         <h1 class="font-semibold text-2xl md:text-5xl text-center">
           Enterprise plan
         </h1>
-        <form
-          @submit.prevent="submitForm"
-          class="w-full mt-7 md:mt-16 max-w-md mx-auto px-5"
-        >
-          <div class="form-group space-y-5 w-full">
-            <div class="flex gap-4">
-              <input
-                type="text"
-                v-model="first_name"
-                placeholder="First Name"
-                required
-              />
-              <input
-                type="text"
-                v-model="last_name"
-                placeholder="Last Name"
-                required
-              />
-            </div>
-            <div>
-              <div
-                v-if="isCommonEmail"
-                class="text-xs mt-0 text-right text-red-600"
-              >
-                Please use a valid work email!
-              </div>
-              <input
-                type="email"
-                v-model="email"
-                placeholder="Email"
-                required
-              />
-            </div>
-            <input
-              type="text"
-              v-model="company"
-              placeholder="Company"
-              required
-            />
-            <!-- <div
-              class="pr-4 border border-grey focus-within:border-blue bg-white rounded"
-            >
-              <select v-model="industry" required class="border-none">
-                <option hidden selected disabled value="">Industry</option>
-                <option v-for="section in industries" :key="section">
-                  {{ section }}
-                </option>
-              </select> 
-            </div> -->
-            <app-select-input
-              placeholder="Select Industry"
-              v-model="industry"
-              :options="industries"
-              :has-custom-list-item="true"
-            >
-              <template v-slot:list-item="{ option }">
-                <div v-if="option" class="flex space-x-2">
-                  <div>{{ option }}</div>
-                </div>
-              </template>
-            </app-select-input>
-            <app-select-input
-              placeholder="Select Country"
-              v-model="country"
-              :allow-search="true"
-              :options="countries"
-              :has-custom-selected-view="true"
-              :has-custom-list-item="true"
-              ><template v-slot:selected-view="{ item }">
-                <div v-if="item" class="flex items-center space-x-1">
-                  <div>{{ item.name }}</div>
-                </div> </template
-              ><template v-slot:list-item="{ option }">
-                <div v-if="option" class="flex space-x-2">
-                  <div>{{ option.emoji }}</div>
-                  <div>{{ option.name }}</div>
-                </div>
-              </template>
-            </app-select-input>
-            <!-- <input
-              type="tel"
-              v-model="phone_number"
-              placeholder="Phone Number"
-            /> -->
-            <div class="flex space-x-4">
-              <app-select-input
-                :options="countryCodes"
-                v-model="tel_code"
-                :allow-search="true"
-                :has-custom-selected-view="true"
-                :has-custom-list-item="true"
-              >
-                <template v-slot:selected-view="{ item }">
-                  <div v-if="item" class="flex items-center space-x-1">
-                    <div>{{ item.emoji }}</div>
-                    <div>{{ item.name }}</div>
-                  </div>
-                </template>
-                <template v-slot:list-item="{ option }">
-                  <div v-if="option" class="flex space-x-2">
-                    <div>{{ option.emoji }}</div>
-                    <div>{{ option.listName }}</div>
-                  </div>
-                </template>
-              </app-select-input>
-              <input
-                type="digit"
-                required
-                v-model="mobile"
-                placeholder="Enter Phone Number"
-                class="flex-1"
-              />
-            </div>
-            <input
-              type="text"
-              v-model="whereDidYouHear"
-              placeholder="Where did you hear about us?"
-              required
-            />
-            <textarea
-              placeholder="Type your message here"
-              v-model="message"
-              rows="8"
-              minlength="60"
-              required
-            ></textarea>
-          </div>
-          <AppButton
-            text="Let's get started"
-            class="w-full mt-10"
-            :disabled="isCommonEmail"
-          />
-          <p class="text-xs mt-3">
-            By clicking the button you agree with our
-            <a
-              href="/privacy-policy"
-              class="text-blue cursor-pointer font-semibold"
-            >
-              Privacy Policy</a
-            >
-          </p>
-        </form>
+      <contact-form @submit-form='submitForm' />
       </div>
       <div></div>
     </div>
@@ -1024,7 +883,9 @@
 
 <script>
 import { mapState } from "vuex";
+import contactForm from "@/components/contactForm.vue";
 import { commonEmails } from "~/data/emails";
+
 export default {
   props: {
     value: {},
@@ -1032,34 +893,13 @@ export default {
     product: String,
     multiple: Boolean,
   },
+  components: {
+    'contact-form': contactForm,
+  },
   data() {
     return {
-      first_name: "",
-      last_name: "",
-      email: "",
-      company: "",
-      whereDidYouHear: "",
-      industry: "",
-      country: "United States",
-      tel_code: "+1",
-      mobile: null,
-      message: "",
       modifiedValue: this.value,
       submitted: false,
-      industries: [
-        "Banking",
-        "Fintech",
-        "Telecommunications",
-        "Ecommerce/Marketplace",
-        "Asset/Wealth Management",
-        "Insurance",
-        "Transportation/Logistics",
-        "Crypto",
-        "Talent Management",
-        "Gaming/Casinos",
-        "Information Technology",
-        "Others",
-      ],
       plans: ["Free", "Startup"],
       plan: "Free",
     };
@@ -1140,22 +980,10 @@ export default {
         });
       }
     },
-    async submitForm() {
+    async submitForm(data) {
       try {
-        await this.$store.dispatch("contact/submitForm", {
-          firstName: this.first_name,
-          lastName: this.last_name,
-          companyName: this.company,
-          email: this.email,
-          whereDidYouHear: this.whereDidYouHear,
-          industry: this.industry,
-          countryOfOperations: this.country,
-          countryCode: this.tel_code,
-          phoneNumber: this.mobile,
-          message: this.message,
-          formOn: this.$route.fullPath,
-          type: "sales",
-        });
+        await this.$store.dispatch("zoho-crm/createLeads", {...data }); // type: 'sales'
+        this.submitted = true
         this.$emit("formSubmitted");
         window.dataLayer = window.dataLayer || [];
         window.dataLayer.push({

@@ -11038,7 +11038,7 @@ export const sources = [
     },
     {
         "name": "India",
-        "flag": "🇮🇴",
+        "flag": "🇮🇳",
         "solutions": [
             {
                 "name": "AML Screening",

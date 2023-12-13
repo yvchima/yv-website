@@ -68,11 +68,13 @@ export default {
 
   loading: { color: "#0F808C", height: "3px" },
 
-  css: ['vue-slick-carousel/dist/vue-slick-carousel.css'],
+  css: ['~/assets/css/tailwind', '~/assets/css/main', 'vue-slick-carousel/dist/vue-slick-carousel.css'],
 
   env: {
     baseUrl: "https://cms.dev.youverify.co" || "http://localhost:1337",
-    userServiceApiBaseUrl: "https://user.dev.svc.youverify.co"
+    userServiceApiBaseUrl: "https://user.dev.svc.youverify.co",
+    zohoCRMAuthService: 'https://zauth.svc.youverify.co/v1',
+    zohoCRMRecordsAPI: 'https://www.zohoapis.com/crm/v5/',
   },
 
   plugins: [
@@ -88,6 +90,7 @@ export default {
   serverMiddleware: ["~/api/index"],
 
   modules: [
+    // '@nuxtjs/toast',
     "@nuxtjs/axios",
     "@nuxtjs/sitemap",
     "@nuxtjs/robots",
@@ -134,4 +137,12 @@ export default {
       vue.transformAssetUrls.LazyImage = ["src"];
     },
   },
+  
+  // toast: {
+  //   position: 'top-right',
+  //   duration: 7000,
+  //   keepOnHover: true,
+  //   className: 'my-toast',
+  //         fullWidth: false,
+  // },
 };

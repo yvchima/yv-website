@@ -1,0 +1,7 @@
+.my-toast {
+    padding: 1.25rem !important;
+    min-width: 20rem !important;
+    max-width: 25rem !important;
+    font-size: 1rem !important;
+    border-radius: 0.25rem !important;
+}

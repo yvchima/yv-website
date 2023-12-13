@@ -253,115 +253,7 @@
           </p>
         </div>
 
-        <form @submit.prevent="submitForm" class="w-full md:w-1/2">
-          <div class="form-group space-y-5 w-full">
-            <div class="flex gap-4">
-              <input
-                type="text"
-                name="First Name"
-                placeholder="First Name"
-                v-model="first_name"
-                required
-              />
-              <input
-                type="text"
-                name="Last Name"
-                placeholder="Last Name"
-                v-model="last_name"
-                required
-              />
-            </div>
-            <div>
-              <div
-                v-if="isCommonEmail"
-                class="text-xs mt-0 text-right text-red-600"
-              >
-                Please use a valid work email!
-              </div>
-              <input
-                type="email"
-                name="Email"
-                placeholder="Email"
-                v-model="email"
-                required
-              />
-            </div>
-            <input
-              type="text"
-              name="Company"
-              placeholder="Company"
-              v-model="company"
-              required
-            />
-            <!-- <input type="tel" name="Phone Number" placeholder="Phone Number" />
-           -->
-            <div class="flex space-x-1">
-              <app-select-input
-                :options="countryCodes"
-                v-model="tel_code"
-                :allow-search="true"
-                :has-custom-selected-view="true"
-                :has-custom-list-item="true"
-              >
-                <template v-slot:selected-view="{ item }">
-                  <div v-if="item" class="flex items-center space-x-1">
-                    <div>{{ item.emoji }}</div>
-                    <div>{{ item.name }}</div>
-                  </div>
-                </template>
-                <template v-slot:list-item="{ option }">
-                  <div v-if="option" class="flex space-x-2">
-                    <div>{{ option.emoji }}</div>
-                    <div>{{ option.listName }}</div>
-                  </div>
-                </template>
-              </app-select-input>
-              <input
-                type="digit"
-                required
-                v-model="mobile"
-                placeholder="Enter Phone Number"
-                class="flex-1"
-              />
-            </div>
-            <input
-              type="text"
-              v-model="whereDidYouHear"
-              placeholder="Where did you hear about us?"
-              required
-            />
-            <textarea
-              placeholder="Type your message here"
-              name="Message"
-              rows="8"
-              minlength="60"
-              required
-              v-model="message"
-            ></textarea>
-          </div>
-
-          <div class="flex items-center gap-2 cursor-pointer">
-            <input type="checkbox" id="check" v-model="checkbox" class="w-4" />
-            <label for="check" class="text-grey" style="font-size: 10px"
-              >I want to sign up for blog updates and other
-              communications</label
-            >
-          </div>
-          <AppButton
-            text="Submit"
-            class="w-full mt-12"
-            :disabled="isCommonEmail"
-          />
-          <p class="text-xs mt-3">
-            By clicking the button you agree with our
-            <a
-              href="/privacy-policy"
-              class="text-blue cursor-pointer font-semibold"
-            >
-              Privacy Policy</a
-            >
-          </p>
-        </form>
+      <contact-form class="w-full md:w-1/2" @submit-form='submitForm' />
       </div>
     </section>
 
@@ -441,9 +333,10 @@ import { mapState, mapGetters } from "vuex";
 import { commonEmails } from "~/data/emails";
 import HeroSection from "~/components/common/HeroSection.vue";
 import BlogCard from "~/components/resources/BlogCard.vue";
+import ContactForm from "@/components/contactForm.vue";
 
 export default {
-  components: { HeroSection, BlogCard },
+  components: { HeroSection, BlogCard, ContactForm },
   head() {
     return {
       title: "Press & Media",
@@ -579,20 +472,9 @@ export default {
     showNext() {
       this.$refs.carousel.next();
     },
-    async submitForm() {
+    async submitForm(data) {
       try {
-        await this.$store.dispatch("contact/submitForm", {
-          firstName: this.first_name,
-          lastName: this.last_name,
-          companyName: this.company,
-          email: this.email,
-          whereDidYouHear: this.whereDidYouHear,
-          countryCode: this.tel_code,
-          phoneNumber: this.mobile,
-          message: this.message,
-          formOn: this.$route.fullPath,
-          type: "marketing",
-        });
+        await this.$store.dispatch("zoho-crm/createLeads", {...data }); // type: 'marketing'
         this.submitted = true;
         if (this.checkbox) {
           // subscribe to newsletter

@@ -93,141 +93,10 @@
           Ready to become a partner?
         </h1>
         <p class="text-xl mt-6">Sign up to explore partnership benefits</p>
-        <form
-          @submit.prevent="submitForm"
+        <contact-form
           class="w-full mt-7 md:mt-16 max-w-md mx-auto"
-        >
-          <div class="form-group space-y-4 w-full">
-            <div class="flex gap-4">
-              <input
-                type="text"
-                placeholder="First name"
-                name="First Name"
-                required
-                v-model="first_name"
-              />
-              <input
-                type="text"
-                placeholder="Last name"
-                name="Last Name"
-                required
-                v-model="last_name"
-              />
-            </div>
-            <div>
-              <div
-                v-if="isCommonEmail"
-                class="text-xs mt-0 text-right text-red-600"
-              >
-                Please use a valid work email!
-              </div>
-              <input
-                type="email"
-                placeholder="Email"
-                name="Email"
-                required
-                v-model="email"
-              />
-            </div>
-            <input
-              type="text"
-              placeholder="Company name"
-              name="Company"
-              required
-              v-model="company"
-            />
-            <div class="flex space-x-1">
-              <app-select-input
-                class="bg-white"
-                :options="countryCodes"
-                v-model="tel_code"
-                :allow-search="true"
-                :has-custom-selected-view="true"
-                :has-custom-list-item="true"
-              >
-                <template v-slot:selected-view="{ item }">
-                  <div v-if="item" class="flex items-center space-x-1">
-                    <div>{{ item.emoji }}</div>
-                    <div>{{ item.name }}</div>
-                  </div>
-                </template>
-                <template v-slot:list-item="{ option }">
-                  <div v-if="option" class="flex space-x-2">
-                    <div>{{ option.emoji }}</div>
-                    <div>{{ option.listName }}</div>
-                  </div>
-                </template>
-              </app-select-input>
-              <input
-                type="digit"
-                required
-                v-model="mobile"
-                placeholder="Phone Number"
-                class="flex-1"
-              />
-            </div>
-            <!-- <div
-              class="pr-4 border border-grey focus-within:border-blue bg-white rounded"
-            >
-              <select v-model="partnership_type" required class="border-none">
-                <option hidden selected disabled value="">
-                  Partnership Type
-                </option>
-                <option v-for="type in types" :key="type">
-                  {{ type }}
-                </option>
-              </select>
-            </div> -->
-            <app-select-input
-              class="text-left bg-white"
-              placeholder="Select Partnership Type"
-              v-model="partnership_type"
-              :options="types"
-              :has-custom-list-item="true"
-              required
-            >
-              <template v-slot:list-item="{ option }">
-                <div v-if="option" class="flex space-x-2">
-                  <div>{{ option }}</div>
-                </div>
-              </template>
-            </app-select-input>
-            <input
-              type="text"
-              v-model="whereDidYouHear"
-              placeholder="Where did you hear about us?"
-              required
-            />
-            <textarea
-              placeholder="Type your message here"
-              v-model="message"
-              rows="8"
-              minlength="60"
-              required
-            ></textarea>
-          </div>
-          <div class="flex items-center gap-2 cursor-pointer">
-            <input type="checkbox" id="check" v-model="checkbox" class="w-4" />
-            <label for="check" class="text-grey" style="font-size: 10px"
-              >I agree to receive emails on real-time product updates, industry
-              tips, news and guides</label
-            >
-          </div>
-          <AppButton
-            text="Apply Now"
-            class="mt-14 w-full"
-            :disabled="isCommonEmail"
-          />
-          <p class="text-xs text-left mt-3">
-            By clicking the button you agree with our
-            <a
-              href="/privacy-policy"
-              class="text-blue cursor-pointer font-semibold underline"
-            >
-              Privacy Policy</a
-            >
-          </p>
-        </form>
+          @submit-form="submitForm"
+        />
       </div>
     </section>
     <MoreYouverify />
@@ -242,9 +111,11 @@ import HeroSection from "~/components/common/HeroSection.vue";
 import Stats from "~/components/common/Stats.vue";
 import Testimonials from "~/components/common/Testimonials.vue";
 import Partners from "~/components/company/Partners.vue";
+import ContactForm from "@/components/contactForm.vue";
 export default {
   components: {
     MoreYouverify,
+    ContactForm,
     HeroSection,
     Stats,
     Testimonials,
@@ -263,15 +134,7 @@ export default {
   },
   data() {
     return {
-      first_name: "",
-      last_name: "",
-      email: "",
-      company: "",
-      whereDidYouHear: "",
-      tel_code: "+1",
-      mobile: null,
       partnership_type: "",
-      message: "",
       checkbox: null,
       submitted: false,
       types: ["Data Partner", "Technology Partner", "SaaS/PaaS Partner"],
@@ -333,21 +196,9 @@ export default {
     },
   },
   methods: {
-    async submitForm() {
+    async submitForm(data) {
       try {
-        await this.$store.dispatch("contact/submitForm", {
-          firstName: this.first_name,
-          lastName: this.last_name,
-          companyName: this.company,
-          email: this.email,
-          whereDidYouHear: this.whereDidYouHear,
-          partnershipType: this.partnership_type,
-          countryCode: this.tel_code,
-          phoneNumber: this.mobile,
-          message: this.message,
-          formOn: this.$route.fullPath,
-          type: "product",
-        });
+        await this.$store.dispatch("zoho-crm/createLeads", { ...data }); // type: 'product'
         this.submitted = true;
         if (this.checkbox) {
           // subscribe to newsletter

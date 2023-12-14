@@ -2485,8 +2485,8 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "Australian Sanctions Consolidated List",
-                        "type": ""
+                        "name": "Australian Sanctions Consolidated List ",
+                        "type": "Government"
                     },
                     {
                         "name": "UN Security Council Consolidated Sanctions ",
@@ -2791,8 +2791,8 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "Azerbaijan Domestic List",
-                        "type": ""
+                        "name": "Azerbaijan Domestic List ",
+                        "type": "Government"
                     },
                     {
                         "name": "Asian Development Bank Sanctions ",
@@ -3473,8 +3473,8 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "Belgian Financial Sanctions",
-                        "type": ""
+                        "name": "Belgian Financial Sanctions ",
+                        "type": "Government"
                     },
                     {
                         "name": "EU Financial Sanctions Files (FSF) ",
@@ -4413,68 +4413,68 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "US OFAC Specially Designated Nationals (SDN) List",
-                        "type": ""
+                        "name": "US OFAC Specially Designated Nationals (SDN) List ",
+                        "type": "Government"
                     },
                     {
-                        "name": "US OFAC Consolidated (non-SDN) List",
-                        "type": ""
+                        "name": "US OFAC Consolidated (non-SDN) List ",
+                        "type": "Government"
                     },
                     {
-                        "name": "FBI Most Wanted (Official)",
-                        "type": ""
+                        "name": "FBI Most Wanted (Official) ",
+                        "type": "Government"
                     },
                     {
-                        "name": "US State Department Cuba Sanctions",
-                        "type": ""
+                        "name": "US State Department Cuba Sanctions ",
+                        "type": "Government"
                     },
                     {
-                        "name": "US Bureau of Industry (BIS) Denied Persons List",
-                        "type": ""
+                        "name": "US Bureau of Industry (BIS) Denied Persons List ",
+                        "type": "Government"
                     },
                     {
-                        "name": "US Trade Consolidated Screening List (CSL)",
-                        "type": ""
+                        "name": "US Trade Consolidated Screening List (CSL) ",
+                        "type": "Government"
                     },
                     {
-                        "name": "CIA World Leaders",
-                        "type": ""
+                        "name": "CIA World Leaders ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Office of the Comptroller of the Currency  (OCC) Enforcement Actions",
-                        "type": ""
+                        "name": "Office of the Comptroller of the Currency  (OCC) Enforcement Actions ",
+                        "type": "Government"
                     },
                     {
-                        "name": "US SAM Procurement Exclusions",
-                        "type": ""
+                        "name": "US SAM Procurement Exclusions ",
+                        "type": "Government"
                     },
                     {
-                        "name": "UN Security Council Consolidated Sanctions",
-                        "type": ""
+                        "name": "UN Security Council Consolidated Sanctions ",
+                        "type": "Government"
                     },
                     {
-                        "name": "World Bank Debarred Providers",
-                        "type": ""
+                        "name": "World Bank Debarred Providers ",
+                        "type": "Government"
                     },
                     {
-                        "name": "ransomware addresses",
-                        "type": ""
+                        "name": "Ransomware addresses ",
+                        "type": "Government"
                     },
                     {
                         "name": "Inter-American Development Bank Sanctions",
                         "type": ""
                     },
                     {
-                        "name": "INTERPOL Yellow Notices",
-                        "type": ""
+                        "name": "INTERPOL Yellow Notices ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Wikidata Politically Exposed Persons",
-                        "type": ""
+                        "name": "Wikidata Politically Exposed Persons ",
+                        "type": "Commercial"
                     },
                     {
-                        "name": "Adverse Media",
-                        "type": ""
+                        "name": "Adverse Media ",
+                        "type": "Commercial"
                     }
                 ]
             },
@@ -4601,7 +4601,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "EU Financial Sanctions Files (FSF) ",
@@ -4655,8 +4655,8 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "Bulgarian Persons of Interest",
-                        "type": ""
+                        "name": "Bulgarian Persons of Interest ",
+                        "type": "Government"
                     },
                     {
                         "name": "EU Financial Sanctions Files (FSF) ",
@@ -4854,7 +4854,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "Members of the European Parliament ",
@@ -4969,7 +4969,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "Members of the European Parliament ",
@@ -5084,7 +5084,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "Members of the European Parliament ",
@@ -5199,7 +5199,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "EU Financial Sanctions Files (FSF) ",
@@ -5314,7 +5314,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "Members of the European Parliament ",
@@ -5608,7 +5608,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "Members of the European Parliament ",
@@ -5723,7 +5723,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "Members of the European Parliament ",
@@ -5985,7 +5985,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "EU Financial Sanctions Files (FSF) ",
@@ -6283,7 +6283,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "Members of the European Parliament ",
@@ -6397,7 +6397,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "Members of the European Parliament ",
@@ -6511,7 +6511,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "Members of the European Parliament ",
@@ -6737,7 +6737,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "Members of the European Parliament ",
@@ -7585,7 +7585,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "Members of the European Parliament ",
@@ -8033,7 +8033,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "Members of the European Parliament ",
@@ -8259,7 +8259,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "Members of the European Parliament ",
@@ -8374,7 +8374,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "Members of the European Parliament ",
@@ -8648,7 +8648,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "Members of the European Parliament ",
@@ -8702,36 +8702,100 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "UN Security Council Consolidated Sanctions",
-                        "type": ""
+                        "name": "African Development Bank Debarred Entities ",
+                        "type": "Government"
                     },
                     {
-                        "name": "WorldBank Debarred Providers",
-                        "type": ""
+                        "name": "UN Security Council Consolidated Sanctions ",
+                        "type": "Government"
                     },
                     {
-                        "name": "ransomware addresses",
-                        "type": ""
+                        "name": "WorldBank Debarred Providers ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Inter-American Development Bank Sanctions",
-                        "type": ""
+                        "name": "Ransomware addresses ",
+                        "type": "Government"
                     },
                     {
-                        "name": "INTERPOL Yellow Notices",
-                        "type": ""
+                        "name": "Inter-American Development Bank Sanctions ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Wikidata Politically Exposed Persons",
-                        "type": ""
+                        "name": "INTERPOL Yellow Notices ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Members of the European Parliament",
-                        "type": ""
+                        "name": "US OFAC Specially Designated Nationals (SDN) List ",
+                        "type": "Government"
                     },
                     {
-                        "name": "UK Citizens Online Democracy - Every Politician",
-                        "type": ""
+                        "name": "US OFAC Consolidated (non-SDN) List ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "FBI Most Wanted (Official) ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "US State Department Cuba Sanctions ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "US Bureau of Industry (BIS) Denied Persons List ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "US Trade Consolidated Screening List (CSL) ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "CIA World Leaders ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "Office of the Comptroller of the Currency  (OCC) Enforcement Actions ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "US SAM Procurement Exclusions ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "Wikidata Politically Exposed Persons ",
+                        "type": "Commercial"
+                    },
+                    {
+                        "name": "Members of the European Parliament ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "EU Financial Sanctions Files (FSF) ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "EU Consolidated Travel Bans ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "Europe's most wanted fugitives ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "EU Sanctions Map ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "European Bank for Reconstruction and Development (EBRD) Ineligible entities ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "Members of the European Committee of the Regions ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "UK Citizens Online Democracy - Every Politician ",
+                        "type": "Commercial"
                     }
                 ]
             },
@@ -9277,44 +9341,100 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "US OFAC Specially Designated Nationals (SDN) List",
-                        "type": ""
+                        "name": "African Development Bank Debarred Entities ",
+                        "type": "Government"
                     },
                     {
-                        "name": "US OFAC Consolidated (non-SDN) List",
-                        "type": ""
+                        "name": "UN Security Council Consolidated Sanctions ",
+                        "type": "Government"
                     },
                     {
-                        "name": "African Development Bank Debarred Entities",
-                        "type": ""
+                        "name": "WorldBank Debarred Providers ",
+                        "type": "Government"
                     },
                     {
-                        "name": "UN Security Council Consolidated Sanctions",
-                        "type": ""
+                        "name": "Ransomware addresses ",
+                        "type": "Government"
                     },
                     {
-                        "name": "WorldBank Debarred Providers",
-                        "type": ""
+                        "name": "Inter-American Development Bank Sanctions ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Ransomware addresses",
-                        "type": ""
+                        "name": "INTERPOL Yellow Notices ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Inter-American Development Bank Sanctions",
-                        "type": ""
+                        "name": "US OFAC Specially Designated Nationals (SDN) List ",
+                        "type": "Government"
                     },
                     {
-                        "name": "INTERPOL Yellow Notices",
-                        "type": ""
+                        "name": "US OFAC Consolidated (non-SDN) List ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Wikidata Politically Exposed Persons",
-                        "type": ""
+                        "name": "FBI Most Wanted (Official) ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Adverse Media",
-                        "type": ""
+                        "name": "US State Department Cuba Sanctions ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "US Bureau of Industry (BIS) Denied Persons List ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "US Trade Consolidated Screening List (CSL) ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "CIA World Leaders ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "Office of the Comptroller of the Currency  (OCC) Enforcement Actions ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "US SAM Procurement Exclusions ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "Wikidata Politically Exposed Persons ",
+                        "type": "Commercial"
+                    },
+                    {
+                        "name": "Members of the European Parliament ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "EU Financial Sanctions Files (FSF) ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "EU Consolidated Travel Bans ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "Europe's most wanted fugitives ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "EU Sanctions Map ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "European Bank for Reconstruction and Development (EBRD) Ineligible entities ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "Members of the European Committee of the Regions ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "UK Citizens Online Democracy - Every Politician ",
+                        "type": "Commercial"
                     }
                 ]
             },
@@ -10167,7 +10287,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "Members of the European Parliament ",
@@ -10282,7 +10402,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "Members of the European Parliament ",
@@ -10730,7 +10850,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "EU Financial Sanctions Files (FSF) ",
@@ -11107,7 +11227,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "EU Financial Sanctions Files (FSF) ",
@@ -11213,36 +11333,100 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "UN Security Council Consolidated Sanctions",
-                        "type": ""
+                        "name": "Asian Development Bank Sanctions ",
+                        "type": "Government"
                     },
                     {
-                        "name": "WorldBank Debarred Providers",
-                        "type": ""
+                        "name": "UN Security Council Consolidated Sanctions ",
+                        "type": "Government"
                     },
                     {
-                        "name": "ransomware addresses",
-                        "type": ""
+                        "name": "WorldBank Debarred Providers ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Inter-American Development Bank Sanctions",
-                        "type": ""
+                        "name": "Ransomware addresses ",
+                        "type": "Government"
                     },
                     {
-                        "name": "INTERPOL Yellow Notices",
-                        "type": ""
+                        "name": "Inter-American Development Bank Sanctions ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Wikidata Politically Exposed Persons",
-                        "type": ""
+                        "name": "INTERPOL Yellow Notices ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Members of the European Parliament",
-                        "type": ""
+                        "name": "US OFAC Specially Designated Nationals (SDN) List ",
+                        "type": "Government"
                     },
                     {
-                        "name": "UK Citizens Online Democracy - Every Politician",
-                        "type": ""
+                        "name": "US OFAC Consolidated (non-SDN) List ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "FBI Most Wanted (Official) ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "US State Department Cuba Sanctions ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "US Bureau of Industry (BIS) Denied Persons List ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "US Trade Consolidated Screening List (CSL) ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "CIA World Leaders ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "Office of the Comptroller of the Currency  (OCC) Enforcement Actions ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "US SAM Procurement Exclusions ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "Wikidata Politically Exposed Persons ",
+                        "type": "Commercial"
+                    },
+                    {
+                        "name": "EU Financial Sanctions Files (FSF) ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "EU Consolidated Travel Bans ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "Europe's most wanted fugitives ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "EU Sanctions Map ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "European Bank for Reconstruction and Development (EBRD) Ineligible entities ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "Members of the European Committee of the Regions ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "Members of the European Parliament ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "UK Citizens Online Democracy - Every Politician ",
+                        "type": "Government"
                     }
                 ]
             },
@@ -11411,36 +11595,100 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "UN Security Council Consolidated Sanctions",
-                        "type": ""
+                        "name": "Asian Development Bank Sanctions ",
+                        "type": "Government"
                     },
                     {
-                        "name": "WorldBank Debarred Providers",
-                        "type": ""
+                        "name": "UN Security Council Consolidated Sanctions ",
+                        "type": "Government"
                     },
                     {
-                        "name": "ransomware addresses",
-                        "type": ""
+                        "name": "WorldBank Debarred Providers ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Inter-American Development Bank Sanctions",
-                        "type": ""
+                        "name": "Ransomware addresses ",
+                        "type": "Government"
                     },
                     {
-                        "name": "INTERPOL Yellow Notices",
-                        "type": ""
+                        "name": "Inter-American Development Bank Sanctions ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Wikidata Politically Exposed Persons",
-                        "type": ""
+                        "name": "INTERPOL Yellow Notices ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Members of the European Parliament",
-                        "type": ""
+                        "name": "US OFAC Specially Designated Nationals (SDN) List ",
+                        "type": "Government"
                     },
                     {
-                        "name": "UK Citizens Online Democracy - Every Politician",
-                        "type": ""
+                        "name": "US OFAC Consolidated (non-SDN) List ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "FBI Most Wanted (Official) ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "US State Department Cuba Sanctions ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "US Bureau of Industry (BIS) Denied Persons List ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "US Trade Consolidated Screening List (CSL) ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "CIA World Leaders ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "Office of the Comptroller of the Currency  (OCC) Enforcement Actions ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "US SAM Procurement Exclusions ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "Wikidata Politically Exposed Persons ",
+                        "type": "Commercial"
+                    },
+                    {
+                        "name": "EU Financial Sanctions Files (FSF) ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "EU Consolidated Travel Bans ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "Europe's most wanted fugitives ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "EU Sanctions Map ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "European Bank for Reconstruction and Development (EBRD) Ineligible entities ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "Members of the European Committee of the Regions ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "Members of the European Parliament ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "UK Citizens Online Democracy - Every Politician ",
+                        "type": "Government"
                     }
                 ]
             },
@@ -11678,7 +11926,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "EU Financial Sanctions Files (FSF) ",
@@ -12097,7 +12345,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Japan"
                     },
                     {
                         "name": "EU Financial Sanctions Files (FSF) ",
@@ -12256,7 +12504,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Jordan"
                     },
                     {
                         "name": "EU Financial Sanctions Files (FSF) ",
@@ -12392,7 +12640,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "EU Financial Sanctions Files (FSF) ",
@@ -12543,7 +12791,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "Members of the European Parliament ",
@@ -12941,7 +13189,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "EU Financial Sanctions Files (FSF) ",
@@ -13085,7 +13333,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "EU Financial Sanctions Files (FSF) ",
@@ -13213,7 +13461,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "EU Financial Sanctions Files (FSF) ",
@@ -13483,7 +13731,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "EU Financial Sanctions Files (FSF) ",
@@ -13611,7 +13859,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "Members of the European Parliament ",
@@ -13726,7 +13974,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "Members of the European Parliament ",
@@ -13841,7 +14089,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "Members of the European Parliament ",
@@ -14371,7 +14619,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "Members of the European Parliament ",
@@ -14486,7 +14734,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "Members of the European Parliament ",
@@ -14605,7 +14853,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "EU Financial Sanctions Files (FSF) ",
@@ -14772,7 +15020,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "EU Financial Sanctions Files (FSF) ",
@@ -14900,7 +15148,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "Members of the European Parliament ",
@@ -15258,7 +15506,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "Members of the European Parliament ",
@@ -15373,7 +15621,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "Members of the European Parliament ",
@@ -16288,7 +16536,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "Members of the European Parliament ",
@@ -16386,36 +16634,100 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "UN Security Council Consolidated Sanctions",
-                        "type": ""
+                        "name": "African Development Bank Debarred Entities ",
+                        "type": "Government"
                     },
                     {
-                        "name": "WorldBank Debarred Providers",
-                        "type": ""
+                        "name": "UN Security Council Consolidated Sanctions ",
+                        "type": "Government"
                     },
                     {
-                        "name": "ransomware addresses",
-                        "type": ""
+                        "name": "WorldBank Debarred Providers ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Inter-American Development Bank Sanctions",
-                        "type": ""
+                        "name": "Ransomware addresses ",
+                        "type": "Government"
                     },
                     {
-                        "name": "INTERPOL Yellow Notices",
-                        "type": ""
+                        "name": "Inter-American Development Bank Sanctions ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Wikidata Politically Exposed Persons",
-                        "type": ""
+                        "name": "INTERPOL Yellow Notices ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Members of the European Parliament",
-                        "type": ""
+                        "name": "US OFAC Specially Designated Nationals (SDN) List ",
+                        "type": "Government"
                     },
                     {
-                        "name": "UK Citizens Online Democracy - Every Politician",
-                        "type": ""
+                        "name": "US OFAC Consolidated (non-SDN) List ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "FBI Most Wanted (Official) ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "US State Department Cuba Sanctions ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "US Bureau of Industry (BIS) Denied Persons List ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "US Trade Consolidated Screening List (CSL) ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "CIA World Leaders ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "Office of the Comptroller of the Currency  (OCC) Enforcement Actions ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "US SAM Procurement Exclusions ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "Wikidata Politically Exposed Persons ",
+                        "type": "Commercial"
+                    },
+                    {
+                        "name": "Members of the European Parliament ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "EU Financial Sanctions Files (FSF) ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "EU Consolidated Travel Bans ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "Europe's most wanted fugitives ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "EU Sanctions Map ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "European Bank for Reconstruction and Development (EBRD) Ineligible entities ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "Members of the European Committee of the Regions ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "UK Citizens Online Democracy - Every Politician ",
+                        "type": "Commercial"
                     }
                 ]
             },
@@ -16498,7 +16810,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "EU Financial Sanctions Files (FSF) ",
@@ -16613,7 +16925,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "Members of the European Parliament ",
@@ -16839,7 +17151,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "EU Financial Sanctions Files (FSF) ",
@@ -17409,7 +17721,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "Members of the European Parliament ",
@@ -17524,7 +17836,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "Members of the European Parliament ",
@@ -17910,7 +18222,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "EU Financial Sanctions Files (FSF) ",
@@ -18025,7 +18337,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "EU Financial Sanctions Files (FSF) ",
@@ -18251,7 +18563,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "EU Financial Sanctions Files (FSF) ",
@@ -18852,7 +19164,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "EU Financial Sanctions Files (FSF) ",
@@ -19492,7 +19804,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "EU Financial Sanctions Files (FSF) ",
@@ -19939,7 +20251,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "Members of the European Parliament ",
@@ -20622,7 +20934,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "Members of the European Parliament ",
@@ -20737,7 +21049,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "EU Financial Sanctions Files (FSF) ",
@@ -20877,7 +21189,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "Members of the European Parliament ",
@@ -21116,7 +21428,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "Members of the European Parliament ",
@@ -21231,7 +21543,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "Members of the European Parliament ",
@@ -21350,7 +21662,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "EU Financial Sanctions Files (FSF) ",
@@ -21927,7 +22239,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "Members of the European Parliament ",
@@ -22042,7 +22354,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "Members of the European Parliament ",
@@ -22178,7 +22490,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "EU Financial Sanctions Files (FSF) ",
@@ -22293,7 +22605,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "Members of the European Parliament ",
@@ -22458,29 +22770,6 @@ export const sources = [
                         "type": "commercial"
                     }
                 ]
-            },
-            {
-                "name": "KYB - Business verification",
-                "link": "/product/kyb/business-verification",
-                "docs": "https://doc.youverify.co/",
-                "sources": [
-                    {
-                        "name": "Company search ",
-                        "type": "Government"
-                    },
-                    {
-                        "name": "Company verification ",
-                        "type": "Government"
-                    },
-                    {
-                        "name": "Risk intelligence ",
-                        "type": "Commercial"
-                    },
-                    {
-                        "name": "Adverse media ",
-                        "type": "Commercial"
-                    }
-                ]
             }
         ]
     },
@@ -22555,7 +22844,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "EU Financial Sanctions Files (FSF) ",
@@ -22670,7 +22959,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "Members of the European Parliament ",
@@ -23194,7 +23483,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "EU Financial Sanctions Files (FSF) ",
@@ -23248,36 +23537,100 @@ export const sources = [
                 "docs": "https://doc.youverify.co/",
                 "sources": [
                     {
-                        "name": "UN Security Council Consolidated Sanctions",
-                        "type": ""
+                        "name": "Asian Development Bank Sanctions ",
+                        "type": "Government"
                     },
                     {
-                        "name": "WorldBank Debarred Providers",
-                        "type": ""
+                        "name": "UN Security Council Consolidated Sanctions ",
+                        "type": "Government"
                     },
                     {
-                        "name": "ransomware addresses",
-                        "type": ""
+                        "name": "WorldBank Debarred Providers ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Inter-American Development Bank Sanctions",
-                        "type": ""
+                        "name": "Ransomware addresses ",
+                        "type": "Government"
                     },
                     {
-                        "name": "INTERPOL Yellow Notices",
-                        "type": ""
+                        "name": "Inter-American Development Bank Sanctions ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Wikidata Politically Exposed Persons",
-                        "type": ""
+                        "name": "INTERPOL Yellow Notices ",
+                        "type": "Government"
                     },
                     {
-                        "name": "Members of the European Parliament",
-                        "type": ""
+                        "name": "US OFAC Specially Designated Nationals (SDN) List ",
+                        "type": "Government"
                     },
                     {
-                        "name": "UK Citizens Online Democracy - Every Politician",
-                        "type": ""
+                        "name": "US OFAC Consolidated (non-SDN) List ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "FBI Most Wanted (Official) ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "US State Department Cuba Sanctions ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "US Bureau of Industry (BIS) Denied Persons List ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "US Trade Consolidated Screening List (CSL) ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "CIA World Leaders ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "Office of the Comptroller of the Currency  (OCC) Enforcement Actions ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "US SAM Procurement Exclusions ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "Wikidata Politically Exposed Persons ",
+                        "type": "Commercial"
+                    },
+                    {
+                        "name": "EU Financial Sanctions Files (FSF) ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "EU Consolidated Travel Bans ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "Europe's most wanted fugitives ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "EU Sanctions Map ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "European Bank for Reconstruction and Development (EBRD) Ineligible entities ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "Members of the European Committee of the Regions ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "Members of the European Parliament ",
+                        "type": "Government"
+                    },
+                    {
+                        "name": "UK Citizens Online Democracy - Every Politician ",
+                        "type": "Government"
                     }
                 ]
             },
@@ -23360,7 +23713,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "EU Financial Sanctions Files (FSF) ",
@@ -23475,7 +23828,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "Members of the European Parliament ",
@@ -23613,7 +23966,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "EU Financial Sanctions Files (FSF) ",
@@ -23764,7 +24117,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "EU Financial Sanctions Files (FSF) ",
@@ -23879,7 +24232,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "Members of the European Parliament ",
@@ -24216,7 +24569,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "Members of the European Parliament ",
@@ -24501,7 +24854,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "EU Financial Sanctions Files (FSF) ",
@@ -24727,7 +25080,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "Members of the European Parliament ",
@@ -24984,7 +25337,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "EU Financial Sanctions Files (FSF) ",
@@ -25253,7 +25606,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "EU Financial Sanctions Files (FSF) ",
@@ -25701,7 +26054,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "EU Financial Sanctions Files (FSF) ",
@@ -25848,7 +26201,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "EU Financial Sanctions Files (FSF) ",
@@ -25963,7 +26316,7 @@ export const sources = [
                     },
                     {
                         "name": "Wikidata Politically Exposed Persons ",
-                        "type": "Government"
+                        "type": "Commercial"
                     },
                     {
                         "name": "Members of the European Parliament ",

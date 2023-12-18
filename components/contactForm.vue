@@ -46,7 +46,7 @@
           required
         />
       </div>
-            <app-select-input
+            <!-- <app-select-input
             v-if="type === 'partners'"
               class="text-left bg-white"
               placeholder="Select Partnership Type"
@@ -60,7 +60,7 @@
                   <div>{{ option }}</div>
                 </div>
               </template>
-            </app-select-input>
+            </app-select-input> -->
       <!-- <app-select-input
             class="bg-white text-left"
             placeholder="Select Solution"
@@ -283,7 +283,7 @@ export default {
     
   },
   methods: {
-    handleSubmit() {
+    async handleSubmit() {
       const formData = {
         firstName: this.first_name,
         lastName: this.last_name,
@@ -298,6 +298,16 @@ export default {
         leadStatus: "New",
         leadSource: 'Website'
       };
+
+await this.$store.dispatch("contact/submitForm", {
+        ...formData,
+        type: this.type,
+              companyName: this.company,
+              countryOfOperations: this.country,
+              countryCode: this.tel_code,
+              whereDidYouHear: this.firstContactPoint,
+              formOn: this.$route.fullPath,
+      })
 
       if (this.type === 'partner') {
         formData = { ...formData, partnershipType: this.partnership_type}

@@ -94,6 +94,7 @@
         </h1>
         <p class="text-xl mt-6">Sign up to explore partnership benefits</p>
         <contact-form
+         type='product'
           class="w-full mt-7 md:mt-16 max-w-md mx-auto"
           @submit-form="submitForm"
         />

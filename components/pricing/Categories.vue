@@ -874,7 +874,7 @@
         <h1 class="font-semibold text-2xl md:text-5xl text-center">
           Enterprise plan
         </h1>
-      <contact-form @submit-form='submitForm' />
+      <contact-form type='sales' @submit-form='submitForm' />
       </div>
       <div></div>
     </div>

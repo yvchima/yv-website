@@ -29,7 +29,7 @@
       </div>
 
         <contact-form
-        type='contact'
+        type='support'
           class="w-full md:w-1/2"
           @submit-form="submitForm"
         />

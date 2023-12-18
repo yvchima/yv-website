@@ -253,7 +253,7 @@
           </p>
         </div>
 
-      <contact-form class="w-full md:w-1/2" @submit-form='submitForm' />
+      <contact-form type='marketing' class="w-full md:w-1/2" @submit-form='submitForm' />
       </div>
     </section>
 
@@ -474,7 +474,7 @@ export default {
     },
     async submitForm(data) {
       try {
-        await this.$store.dispatch("zoho-crm/createLeads", {...data }); // type: 'marketing'
+        await this.$store.dispatch("zoho-crm/createLeads", {...data });
         this.submitted = true;
         if (this.checkbox) {
           // subscribe to newsletter

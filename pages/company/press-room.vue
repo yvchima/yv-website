@@ -253,7 +253,7 @@
           </p>
         </div>
 
-      <contact-form type='marketing' class="w-full md:w-1/2" @submit-form='submitForm' />
+      <contact-form class="w-full md:w-1/2" @submit-form='submitForm' />
       </div>
     </section>
 
@@ -474,8 +474,26 @@ export default {
     },
     async submitForm(data) {
       try {
-        await this.$store.dispatch("zoho-crm/createLeads", {...data });
+        const formData = {
+          firstName: data.firstName,
+          lastName: data.lastName,
+          email: data.email,
+          companyName: data.company,
+          countryOfOperations: data.country,
+          countryCode: data.tel_code,
+          phoneNumber: data.mobile,
+          type: 'marketing',
+          whereDidYouHear: data.firstContactPoint,
+          formOn: this.$route.fullPath,
+        };
+
+        const { queryType, partnershipType, tel_code, mobile, ...rest } = data;
+
+        await this.$store.dispatch("contact/submitForm", formData);
+        await this.$store.dispatch("zoho-crm/createLeads", rest);
+
         this.submitted = true;
+        
         if (this.checkbox) {
           // subscribe to newsletter
           await this.$axios.$post(`${process.env.baseUrl}/newsletter-emails`, {

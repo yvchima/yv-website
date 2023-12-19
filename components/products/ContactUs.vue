@@ -14,7 +14,7 @@
       <p class="text-xl font-medium mt-12">
         {{ note }}
       </p>
-      <contact-form type='support' @submit-form='submitForm' />
+      <contact-form @submit-form='submitForm' />
     </div>
   </section>
 </template>
@@ -36,8 +36,26 @@ export default {
   methods: {
     async submitForm(data) {
       try {
-        await this.$store.dispatch("zoho-crm/createLeads", {...data });
+        const formData = {
+          firstName: data.firstName,
+          lastName: data.lastName,
+          email: data.email,
+          companyName: data.company,
+          countryOfOperations: data.country,
+          countryCode: data.tel_code,
+          phoneNumber: data.mobile,
+          type: 'support',
+          whereDidYouHear: data.firstContactPoint,
+          formOn: this.$route.fullPath,
+        };
+
+        const { queryType, partnershipType, tel_code, mobile, ...rest } = data;
+
+        await this.$store.dispatch("contact/submitForm", formData);
+        await this.$store.dispatch("zoho-crm/createLeads", rest);
+        
         this.submitted = true;
+        
         window.dataLayer.push({
           event: "demoFormSubmitted",
         });

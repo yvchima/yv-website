@@ -874,7 +874,7 @@
         <h1 class="font-semibold text-2xl md:text-5xl text-center">
           Enterprise plan
         </h1>
-      <contact-form type='sales' @submit-form='submitForm' />
+      <contact-form @submit-form='submitForm' />
       </div>
       <div></div>
     </div>
@@ -982,8 +982,26 @@ export default {
     },
     async submitForm(data) {
       try {
-        await this.$store.dispatch("zoho-crm/createLeads", {...data }); // type: 'sales'
+        const formData = {
+          firstName: data.firstName,
+          lastName: data.lastName,
+          email: data.email,
+          companyName: data.company,
+          countryOfOperations: data.country,
+          countryCode: data.tel_code,
+          phoneNumber: data.mobile,
+          type: 'sales',
+          whereDidYouHear: data.firstContactPoint,
+          formOn: this.$route.fullPath,
+        };
+
+        const { queryType, partnershipType, tel_code, mobile, ...rest } = data;
+
+        await this.$store.dispatch("contact/submitForm", formData);
+        await this.$store.dispatch("zoho-crm/createLeads", rest);
+
         this.submitted = true
+        
         this.$emit("formSubmitted");
         window.dataLayer = window.dataLayer || [];
         window.dataLayer.push({

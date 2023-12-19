@@ -7,9 +7,9 @@
         <p class="mt-8 font-medium">
           <!-- {{ faq ? "Our customer support expert" : "One of our sales expert" }} -->
           {{
-            (query_type === "Sales" &&
+            (query_type === "sales" &&
               "One of our sales expert will contact you shortly.") ||
-            (query_type === "Support" &&
+            (query_type === "support" &&
               "Our customer support expert will contact you shortly.") ||
             (query_type === "Press and Media" &&
               "Someone from the marketing team will contact you shortly.") ||
@@ -28,11 +28,11 @@
         </p>
       </div>
 
-        <contact-form
-        type='support'
-          class="w-full md:w-1/2"
-          @submit-form="submitForm"
-        />
+      <contact-form
+        formType="contact"
+        class="w-full md:w-1/2"
+        @submit-form="submitForm"
+      />
       <!-- <form @submit.prevent="submitForm" class="w-full md:w-1/2">
         <div class="form-group space-y-5 w-full">
           <div
@@ -298,8 +298,28 @@ export default {
   methods: {
     async submitForm(data) {
       try {
-        await this.$store.dispatch("zoho-crm/createLeads", {...data }); // type: 'support'
+        const formData = {
+          firstName: data.firstName,
+          lastName: data.lastName,
+          email: data.email,
+          companyName: data.company,
+          countryOfOperations: data.country,
+          countryCode: data.tel_code,
+          phoneNumber: data.mobile,
+          type: data.queryType,
+          queryType: data.queryType,
+          whereDidYouHear: data.firstContactPoint,
+          formOn: this.$route.fullPath,
+        };
+
+        const { queryType, tel_code, mobile, ...rest } = data;
+
+        await this.$store.dispatch("contact/submitForm", formData);
+        await this.$store.dispatch("zoho-crm/createLeads", rest);
+        
         this.submitted = true;
+        this.query_type = queryType
+
         if (this.checkbox) {
           // subscribe to newsletter
           await this.$axios.$post(`${process.env.baseUrl}/newsletter-emails`, {

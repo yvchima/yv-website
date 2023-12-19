@@ -4,17 +4,17 @@
     class="w-full mt-7 md:mt-16 max-w-md mx-auto"
   >
     <div class="space-y-4 form-group w-full">
-          <div
-          v-if="type === 'contact'"
-            class="pr-4 border border-grey focus-within:border-blue bg-white rounded"
-          >
-            <select v-model="query_type" required class="border-none">
-              <option hidden selected disabled value="">Type of query</option>
-              <option v-for="query in queries" :key="query">
-                {{ query }}
-              </option>
-            </select>
-          </div>
+      <div
+        v-if="formType === 'contact'"
+        class="pr-4 border border-grey focus-within:border-blue bg-white rounded"
+      >
+        <select v-model="queryType" required class="border-none">
+          <option hidden selected disabled value="">Type of query</option>
+          <option v-for="query in queries" :key="query">
+            {{ query }}
+          </option>
+        </select>
+      </div>
       <div class="flex gap-4">
         <input
           type="text"
@@ -46,21 +46,21 @@
           required
         />
       </div>
-            <!-- <app-select-input
-            v-if="type === 'partners'"
-              class="text-left bg-white"
-              placeholder="Select Partnership Type"
-              v-model="partnership_type"
-              :options="types"
-              :has-custom-list-item="true"
-              required
-            >
-              <template v-slot:list-item="{ option }">
-                <div v-if="option" class="flex space-x-2">
-                  <div>{{ option }}</div>
-                </div>
-              </template>
-            </app-select-input> -->
+      <app-select-input
+        v-if="formType === 'partners'"
+        class="text-left bg-white"
+        placeholder="Select Partnership Type"
+        v-model="partnership_type"
+        :options="types"
+        :has-custom-list-item="true"
+        required
+      >
+        <template v-slot:list-item="{ option }">
+          <div v-if="option" class="flex space-x-2">
+            <div>{{ option }}</div>
+          </div>
+        </template>
+      </app-select-input>
       <!-- <app-select-input
             class="bg-white text-left"
             placeholder="Select Solution"
@@ -186,27 +186,27 @@ export default {
   props: {
     heading: String,
     note: String,
-    type: {
+    formType: {
       type: String,
       default: '',
     },
   },
   data() {
     return {
-      first_name: "",
-      last_name: "",
-      company: "",
+      first_name: "gigi",
+      last_name: "buffon",
+      company: "Juventus",
       //   solution: "",
-      email: "",
-      firstContactPoint: "",
-      tel_code: "+1",
-      mobile: null,
+      email: "ggbuffon@juventus.com",
+      firstContactPoint: "tv",
+      tel_code: "+39",
+      mobile: '93747282745',
       partnership_type: '',
       country: "",
       industry: "",
-      message: "",
+      message: "Testing this.Testing this.Testing this.Testing this.Testing this.Testing this.",
       checkbox: null,
-      query_type: "",
+      queryType: "",
       solutions: [
         "Customer Risk Assessment",
         "KYT (Know Your Transaction)",
@@ -233,7 +233,7 @@ export default {
         "Gaming/Casinos",
         "Others",
       ],
-      queries: ["Sales", "Support"],
+      queries: ["sales", "support"],
       types: ["Data Partner", "Technology Partner", "SaaS/PaaS Partner"],
     };
   },
@@ -293,24 +293,20 @@ export default {
         country: this.country,
         firstContactPoint: this.firstContactPoint,
         phoneNumber: this.tel_code + this.mobile,
+        tel_code: this.tel_code,
+        mobile: this.mobile,
         // solution: this.solution,
         message: this.message,
         leadStatus: "New",
-        leadSource: 'Website'
+        leadSource: 'Website',
+        queryType: this.queryType,
       };
 
-await this.$store.dispatch("contact/submitForm", {
-        ...formData,
-        type: this.type,
-              companyName: this.company,
-              countryOfOperations: this.country,
-              countryCode: this.tel_code,
-              whereDidYouHear: this.firstContactPoint,
-              formOn: this.$route.fullPath,
-      })
-
-      if (this.type === 'partner') {
-        formData = { ...formData, partnershipType: this.partnership_type}
+      if (this.queryType) {
+        formData['queryType'] = this.queryType
+      }
+      if (this.partnership_type) {
+        formData['partnershipType'] = this.partnership_type
       }
       this.$emit("submit-form", formData);
     },

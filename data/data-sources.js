@@ -11305,19 +11305,19 @@ export const sources = [
                 "sources": [
                     {
                         "name": "Company search",
-                        "type": ""
+                        "type": "Government"
                     },
                     {
                         "name": "Company verification",
-                        "type": ""
+                        "type": "Government"
                     },
                     {
                         "name": "Risk intelligence",
-                        "type": ""
+                        "type": "Commercial"
                     },
                     {
                         "name": "Adverse media",
-                        "type": ""
+                        "type": "Commercial"
                     }
                 ]
             }
